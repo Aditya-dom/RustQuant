@@ -15,7 +15,7 @@
 name = "RustQuant"
 authors = ["avhz <RustQuantContact@gmail.com>"]
 description = "A Rust library for quantitative finance."
-version = "0.2.3"
+version = "0.2.4"
 edition = "2021"
 readme = "README.md"
 repository = "https://github.com/avhz/RustQuant"
@@ -76,7 +76,7 @@ num = { version = "0.4.1", features = ["rand"] }
 time = { version = "0.3.34", features = ["macros"] }
 
 # https://docs.rs/polars/latest/polars/
-polars = { version = "0.38.1", features = ["docs-selection"] }
+polars = { version = "0.39.2", features = ["docs-selection"] }
 
 
 [dev-dependencies]
